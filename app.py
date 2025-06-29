@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 
 # Load the trained model and scaler
-model_path = r"C:\Users\Administrator\Downloads\STREAMLIT\model.joblib"
-scaler_path = r"C:\Users\Administrator\Downloads\STREAMLIT\scaler.joblib"
+model_path = "model.joblib"
+scaler_path = "scaler.joblib"
 
 model = joblib.load(model_path)
 scaler = joblib.load(scaler_path)
