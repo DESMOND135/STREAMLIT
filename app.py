@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load the trained model and scaler
-with open("model.pkl", "rb") as f:
+with open("regmodel.pkl", "rb") as f:
     model = cloudpickle.load(f)
 
 with open("scaler.pkl", "rb") as f:
