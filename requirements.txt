@@ -1,0 +1,7 @@
+streamlitstreamlit run app.py
+
+scikit-learn==1.4.2
+joblib==1.4.2
+pandas==2.2.3git 
+
+numpy==1.26.4
